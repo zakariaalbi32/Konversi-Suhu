@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Konversi Suhu - Zakaria</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <h1 class="judul-utama">Konversi Suhu</h1>
+    <!-- HEADER END-->
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- MUQODDIMAH -->
+      <p>Masukkan suhu derajat celcius (&deg;C) di kolom bawah ini cuy...</p>
+      <!-- MUQODDIMAH END -->
+
+      <!-- PART INPUT CELCIUS -->
+      <section class="padding-medium">
+        <div>
+          <label for="input-suhu">Celcius (&deg;C) :</label>
+          <input type="number" id="input-suhu" name="suhu" />
+        </div>
+
+        <!-- KNOP CONVERTION -->
+        <div class="tombol-container">
+          <button class="konversi">Konversi</button>
+          <button class="reset">Reset</button>
+          <button class="reverse">Reverse</button>
+        </div>
+      </section>
+      <!-- KNOP CONVERTION END -->
+      <!-- PART INPUT CELCIUS END-->
+
+      <!-- PART RESULT CONVERTION -->
+      <section class="padding-medium">
+        <div>
+          <label>Fahrenheit (&deg;F) :</label>
+          <textarea></textarea>
+        </div>
+      </section>
+      <!-- PART RESULT CONVERTION END-->
+
+      <!-- PART EXPLANATION -->
+      <section class="padding-medium">
+        <div>
+          <label>Penjelasan :</label>
+          <textarea></textarea>
+        </div>
+      </section>
+      <!-- PART EXPLANATION END -->
+
+      <!-- INFORMATION OF FORMULA -->
+      <section>
+        <header>
+          <h2>
+            Cara konversi suhu dari Celcius (&deg;C) ke Fahrenheit (&deg;F)
+          </h2>
+        </header>
+
+        <hr />
+
+        <div>
+          <p>
+            Suhu Fahrenheit sama dengan suhu Celcius kali 9/5 ditambah 32...
+          </p>
+          <p>S <sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 9/5) + 32</p>
+          <p>Atau</p>
+          <p>S <sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 1.8) + 32</p>
+        </div>
+      </section>
+      <!-- INFORMATION OF FORMULA END -->
+    </main>
+    <!-- MAIN CONTENT END -->
+
+    <!-- FOOTER -->
+    <!-- FOOTER END -->
+    <script src="JS/script.js"></script>
+  </body>
+</html>
